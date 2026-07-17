@@ -60,11 +60,26 @@
 #ka{
     width: 300px;
     height: 670px;
+    border-radius: 10px;
 }
 #kat{
     height: 670px;
     width: 400px;
+    border-radius: 10px;
 }
 #img1{
    align-items: left;
+   border-radius: 10px;
+}
+.ul-link:hover {
+    transform: scale(1.05); 
+    color: #dc143c;
+    transition: 0.5s ease, 
+}
+.img{
+    border-radius: 10px;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
 }
